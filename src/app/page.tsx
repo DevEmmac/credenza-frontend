@@ -3,6 +3,7 @@ import { HeroSection } from '@/features/landing-page/hero';
 import { HowToGetStarted } from '@/features/landing-page/how-to-get-started';
 import { MultiPanelSection } from '@/features/landing-page/multi-panel-section';
 import { MultiPanelSectionHeader } from '@/features/landing-page/multi-panel-section-header';
+import  FooterSection from "@/features/landing-page/footer-section";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <MultiPanelSection />
         <HowToGetStarted />
       </div>
+         <FooterSection />
     </div>
   );
 };
